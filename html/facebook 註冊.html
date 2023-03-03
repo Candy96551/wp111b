@@ -1,0 +1,42 @@
+<html>
+<head>
+<h1>註冊</h1>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<h3>快速又簡單。</h3>
+<table>
+<form action="/action_page.php">
+    <tr><th><input type="text" id="fname" name="fname" placeholder="姓氏">
+    <input type="text" id="lastname" name="lastname" placeholder="名字"></th></tr>    
+    <tr><th><input type="email" id="email" name="email" placeholder="手機號碼或電子郵件"></th></tr>
+    <tr><th><input type="password" id="pwd" name="pwd" placeholder="設定密碼"></th></tr>
+    <tr><th><label for="birthday">出生日期：</label></th></tr><br>
+    <tr><th><input type="date" id="birthday" name="birthday"></th></tr>
+    <tr><th><p>性別</p></th></tr>
+    <tr><th><input type="radio" id="女" name="sex" value="女性">
+    <label for="女">女性</label>
+    <input type="radio" id="男" name="sex" value="男性">
+    <label for="男">男性</label>
+    <input type="radio" id="訂" name="sex" value="自訂">
+    <label for="訂">自訂</label></th></tr>
+    <tr><th><input type="submit" value="Submit"></th></tr></form>
+
+
+</body>
+</html>
