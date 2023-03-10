@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color:#336699;
+}
+h3{
+    text-align: center;
+    color: rgb(58, 33, 148);
+}
+body {
+    margin: 20px 10%;
+}
+img {
+    margin:auto;
+    display:block;
+    }
+table {
+    background-color: lightgrey;
+  width: 300px;
+  border: 15px solid rgb(222, 18, 130);
+  padding: 50px;
+  margin: 20px;
+}
+pre {
+    background-color: #eeeeee;
+    border:1px dotted #888888;
+    padding: 20px;
+    border-radius: 20px;
+}
