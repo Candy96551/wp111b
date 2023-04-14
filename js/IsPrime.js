@@ -24,5 +24,4 @@ console.log(IsPrime(3))
 console.log(IsPrime(5))
 console.log(IsPrime(7))
 console.log(IsPrime(9))
-console.log(IsPrime(11))
-console.log(IsPrime(12))
+
