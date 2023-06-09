@@ -5,9 +5,13 @@ body {
     margin:0px;
 }
 #nav {
-    background-color:#369a6b;
+    background-color:#384ea3;
     width:40px;
     height:100%;
+    transition: width 1s;
+}
+#nav:hover {
+    width:200px;
 }
 #navMain {
     padding-left:40px;
@@ -18,26 +22,19 @@ body {
     white-space: nowrap;
     text-decoration: none;
 }
+#nav a:hover {
+    color:rgb(66, 167, 76);
+}
 </style>
 </head>
 <body>
-<div id="nav" onmouseover="navWide()" onmouseout="navNarrow()">
+<div id="nav">
   <div id="navMain">
-    <p><a href="#aboutus">首頁</a></p>
-    <p><a href="#example1">註冊</a></p>
-    <p><a href="#example2">登入</a></p>
-    <p><a href="#example3">登出</a></p>
+    <p><a href="#aboutus">關於本站</a></p>
+    <p><a href="#example1">example 1</a></p>
+    <p><a href="#example2">example 2</a></p>
+    <p><a href="#example3">example 3</a></p>
   </div>
 </div>
-<script>
-    function navWide() {
-        let nav = document.getElementById('nav')
-        nav.style.width = '200px';
-    }
-    function navNarrow() {
-        let nav = document.getElementById('nav')
-        nav.style.width = '40px';
-    }
-</script>
 </body>
 </html>
