@@ -7,7 +7,7 @@ aboutus/
 aboutus/
 aboutus/
     `,
-    '#example1':`
+    '#login':`
     <h1>註冊</h1>
     <input type="text" placeholder="姓名"/><br/>
     <input type="text" placeholder="帳號"/><br/>
