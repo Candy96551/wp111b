@@ -2,8 +2,10 @@ let main = document.querySelector('#main')
 
 let pages = {
     '#aboutus':`
-    <h1>首頁</h1>
-    <p>本網頁可以按功能表去切換畫面</p>  
+aboutus/
+aboutus/
+aboutus/
+aboutus/
     `,
     '#example1':`
     <h1>註冊</h1>
