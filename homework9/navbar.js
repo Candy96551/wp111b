@@ -1,6 +1,12 @@
 let main = document.querySelector('#main')
 
 let pages = {
+    '#aboutus':`
+aboutus/
+aboutus/
+aboutus/
+aboutus/
+    `,
     '#login':`
     <h1>註冊</h1>
     <input type="text" placeholder="姓名"/><br/>
